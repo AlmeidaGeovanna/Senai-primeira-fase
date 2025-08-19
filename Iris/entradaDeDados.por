@@ -22,6 +22,7 @@ programa {
     // conta = cafe + coxinha + halls + doceDeLeite
     // escreva("Total a pagar: R$" + conta)
 
+
     // real nota1, nota2, nota3, nota4
     // real media 
     // escreva("Nota 1 = ")
@@ -34,6 +35,48 @@ programa {
     // leia(nota4)
     // media = (nota1 + nota2 + nota3 + nota4)/4
     // escreva("Média = " + media)
+
+
+    //  real pontuacaoDoTime
+    //  inteiro vitorias, empates
+    //  escreva("Quantas vitórias teve o time? ")
+    //  leia(vitorias)
+    //  escreva("Quantos empates teve o time? ")
+    //  leia(empates)
+    //  pontuacaoDoTime = vitorias*3 + empates
+    //  escreva ("A pontuação do time é " + pontuacaoDoTime)
+
+
+    // real conta, cafe, coxinha, halls, doceDeLeite
+    // escreva("Preço do café: R$" )
+    // leia(cafe)
+    // escreva("Preço da coxinha: R$")
+    // leia(coxinha)
+    // escreva("Preço do halls: R$")
+    // leia(halls)
+    // escreva("Preço do doce de leite: R$")
+    // leia(doceDeLeite)
+    // conta = 2*cafe + coxinha + halls + doceDeLeite
+    // escreva("Total a pagar: R$" + conta)   
+
+
+    //  real critico
+    //  inteiro dano
+    //  escreva("Dano: ")
+    //  leia(dano)
+    //  critico = dano*1.5
+    //  escreva(" Dano Crítico = " + critico)
+
+  
+    // real critico
+    // inteiro dano
+    // inteiro bonus
+    // bonus = 3
+    // escreva("Dano: ")
+    // leia(dano)
+    // critico = dano*1.5 + bonus
+    // escreva(" Dano Crítico = " + critico) 
+
 
 
     
