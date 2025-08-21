@@ -92,6 +92,76 @@ programa {
     //  escreva("O valor da sua média é "+ media)
     
     
+    // real poupanca
+    // real salario
+    // real moradia
+    // real agua
+    // real luz
+    // real internet
+    // real gasolina
+    // real netflix
+    // real telefone
+    // real outros
+    // escreva("Digite o valor do seu salário: ")
+    // leia(salario)
+    // escreva("Valor do aluguel: ")
+    // leia(moradia)
+    // escreva("Valor da conta de água: ")
+    // leia(agua)
+    // escreva("Valor da conta de luz: ")
+    // leia(luz)
+    // escreva("Valor da conta de internet: ")
+    // leia(internet)
+    // escreva("Qual é o valor gasto com gasolina? ")
+    // leia(gasolina)
+    // escreva("Qual é o valor do plano da Netflix? ")
+    // leia(netflix)
+    // escreva("Qual é o valor da conta de telefone? ")
+    // leia(telefone)
+    // escreva("Gastos exttras:")
+    // leia(outros)
+    // poupanca = salario - (moradia+agua+luz+internet+gasolina+netflix+telefone+outros)
+    // escreva("O valor disponível para ser investido na sua poupança é R$ " + poupanca)
 
+
+    // real contaDaCantina
+    // real cafe
+    // real coxinha
+    // real halls
+    // real doceDeLeite
+    // escreva("Valor do Café:R$ ")
+    // leia(cafe)
+    // escreva("Valor da Coxinha:R$ ")
+    // leia(coxinha)
+    // escreva("Valor do Halls:R$ ")
+    // leia(halls)
+    // escreva("Valor do Doce de leite:R$ ")
+    // leia(doceDeLeite)
+    // contaDaCantina = 3*cafe+coxinha+halls+2*doceDeLeite
+    // escreva("O valor da sua conta é de R$ " + contaDaCantina)
+
+    // real cafe_per_capita
+    // real alunos
+    // real cafe
+    // escreva("Qual é a quantidade de café em ml? ")
+    // leia(cafe)
+    // escreva("Quantos alunos? ")
+    // leia(alunos)
+    // cafe_per_capita = cafe/alunos
+    // escreva("A quantidade de café per capita é de: " + cafe_per_capita + "ml")
+
+
+    // real cafe_per_capita
+    // real alunos
+    // real cafe
+    // real extra
+    // escreva("Qual é a quantidade de café em ml? ")
+    // leia(cafe)
+    // escreva("Quantos alunos? ")
+    // leia(alunos)
+    // escreva("Adicione um extra em ml, caso não queira, digite 0: ")
+    // leia(extra)
+    // cafe_per_capita = (cafe+extra)/alunos
+    // escreva("A quantidade de café per capita é de: " + cafe_per_capita + "ml")
   }
 }
