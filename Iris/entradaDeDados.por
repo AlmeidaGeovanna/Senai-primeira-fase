@@ -37,14 +37,14 @@ programa {
     // escreva("Média = " + media)
 
 
-    //  real pontuacaoDoTime
-    //  inteiro vitorias, empates
-    //  escreva("Quantas vitórias teve o time? ")
-    //  leia(vitorias)
-    //  escreva("Quantos empates teve o time? ")
-    //  leia(empates)
-    //  pontuacaoDoTime = vitorias*3 + empates
-    //  escreva ("A pontuação do time é " + pontuacaoDoTime)
+    real pontuacaoDoTime
+     inteiro vitorias, empates
+     escreva("Quantas vitórias teve o time? ")
+     leia(vitorias)
+     escreva("Quantos empates teve o time? ")
+     leia(empates)
+     pontuacaoDoTime = vitorias*3 + empates
+     escreva ("A pontuação do time é de: " + pontuacaoDoTime + " pontos")
 
 
     // real conta, cafe, coxinha, halls, doceDeLeite
