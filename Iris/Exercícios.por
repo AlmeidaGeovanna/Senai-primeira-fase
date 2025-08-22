@@ -54,5 +54,37 @@ programa {
     // escreva("A média dos dois números é " + media)
 
 
+    // real valorCorre1, valorCorre2, valorCorre3, valorCorre4, valorCorre5, totalDia
+    // escreva("Valor da corrida 1: R$")
+    // leia(valorCorre1)
+    // escreva("Valor da corrida 2: R$")
+    // leia(valorCorre2)
+    // escreva("Valor da corrida 3: R$")
+    // leia(valorCorre3)
+    // escreva("Valor da corrida 4: R$")
+    // leia(valorCorre4)
+    // escreva("Valor da corrida 5: R$")
+    // leia(valorCorre5)
+    // totalDia = valorCorre1 + valorCorre2 + valorCorre3 + valorCorre4 + valorCorre5
+    // escreva("O valor total faturado no dia foi de: R$" + totalDia)
+
+
+    // real valorCorre1, valorCorre2, valorCorre3, valorCorre4, valorCorre5, totalDia, descontoUber
+    // escreva("Valor da corrida 1: R$")
+    // leia(valorCorre1)
+    // escreva("Valor da corrida 2: R$")
+    // leia(valorCorre2)
+    // escreva("Valor da corrida 3: R$")
+    // leia(valorCorre3)
+    // escreva("Valor da corrida 4: R$")
+    // leia(valorCorre4)
+    // escreva("Valor da corrida 5: R$")
+    // leia(valorCorre5)
+    // totalDia = valorCorre1 + valorCorre2 + valorCorre3 + valorCorre4 + valorCorre5
+    // escreva("O valor total faturado no dia foi de: R$" + totalDia)
+    // descontoUber = totalDia/4
+    // escreva("\nO desconto é de R$" + descontoUber)
+    // escreva("\nO valor do lucro é de: R$" + (totalDia - descontoUber))
+
   }
 }
