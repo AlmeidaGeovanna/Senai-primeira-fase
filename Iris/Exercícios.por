@@ -86,5 +86,13 @@ programa {
     // escreva("\nO desconto é de R$" + descontoUber)
     // escreva("\nO valor do lucro é de: R$" + (totalDia - descontoUber))
 
+
+    //real mediaRendimentos, faturamentoMensal
+    //mediaRendimentos = 100 
+    //considerei que cada uma das 5 corridas feitas no dia por Juca, tem uma média de faturamento 20 reais. Portanto a média de faturamento diário é de R$100
+    //faturamentoMensal = mediaRendimentos*20
+    //escreva("Estimativa de salário mensal: R$ " + faturamentoMensal)
+
+
   }
 }
