@@ -38,9 +38,20 @@ programa {
     // escreva("\nSoma dos quadrados: " + soma)
 
 
-    
+    // inteiro numero, quadradoDoNumero
+    // escreva("Digite um número: ")
+    // leia(numero)
+    // quadradoDoNumero = numero*numero
+    // escreva("O quadrado do número " + numero + " é: " + quadradoDoNumero)
 
 
+    // real numero1, numero2, media
+    // escreva("Digite o primeiro número: ")
+    // leia(numero1)
+    // escreva("Digite o segundo número ")
+    // leia(numero2)
+    // media = (numero1 + numero2) / 2
+    // escreva("A média dos dois números é " + media)
 
 
   }
