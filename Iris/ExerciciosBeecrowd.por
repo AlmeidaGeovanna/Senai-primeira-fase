@@ -77,7 +77,8 @@ programa {
     //valor/100= retorna quociente da divisão. valor%100 = retorna resto da divisão
     
     inteiro valor, notas100, notas50, notas20, notas10, notas5, notas2, notas1
-    valor = 576
+    escreva("Digite um número inteiro: ")
+    leia(valor)
     
     notas100 = valor / 100 //5
     valor = valor % 100 //76
