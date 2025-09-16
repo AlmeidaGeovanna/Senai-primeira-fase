@@ -8,17 +8,15 @@
 // console.log(idade);
 
 
-let numeroAleatorio
-let tentativa
-numeroAleatorio = Number (prompt ("Digite um número: "))
-tentativa = Number (prompt("Tente adivinhar o número aleatório: "))
-if (numeroAleatorio == tentativa) {
-    alert("Você acertou!")
-}else{
-    alert("Você errou")
-}
-
-
+// let numeroAleatorio //sq02 - 2
+// let tentativa
+// numeroAleatorio = Number (prompt ("Digite um número: "))
+// tentativa = Number (prompt("Tente adivinhar o número aleatório: "))
+// if (numeroAleatorio == tentativa) {
+//     alert("Você acertou!")
+// }else{
+//     alert("Você errou")
+// }
 
 
 // let numero //sq02 - 4
@@ -28,3 +26,15 @@ if (numeroAleatorio == tentativa) {
 // }else{
 //     alert("Número ímpar")
 // }
+
+
+// let senha //sq05.1
+// senha = Number (prompt ("Digite a senha: "))
+// if  (senha == 1234) {
+//     alert("Acesso permitido")
+// }else{
+//     alert("Acesso negado")
+// } 
+
+
+let A, B
