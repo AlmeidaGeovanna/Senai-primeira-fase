@@ -95,4 +95,51 @@
 // }
 
 
+//sq 05.6
+// let pontuacao
+// pontuacao = Number ( prompt ("Digite sua pontuação: "))
+// if(pontuacao <=10 ){
+//     alert ("Deu ruim!")
+// }
+// else if (pontuacao >10 && pontuacao <= 100){
+//     alert("Pode melhorar!")
+// }
+// else if (pontuacao >100 && pontuacao <= 200){
+//     alert("Supimpa!")
+// }
+// else {
+//     alert("Mitou!")
+// }
+
+
+//sq 05.7
+// let dias
+// let valorDiaria
+// let totalBruto, totalLiquido
+// let desconto10, desconto15, multa = 150
+
+// dias = Number (prompt("Quantos dias? "))
+// if(dias <= 5){
+//     valorDiaria = 100
+// }
+// else if (dias <= 10){
+//     valorDiaria = 90
+// }
+// else{
+//     valorDiaria = 80
+// }
+// totalBruto = dias * valorDiaria
+// console.log (totalBruto)
+// desconto10 = totalBruto * 10/100
+// desconto15 = totalBruto * 15/100
+// totalLiquido = totalBruto - (desconto10 + desconto15) + multa
+
+// alert("Número de dias: " + dias 
+//     + "\nValor por diária: R$" + valorDiaria 
+//     + "\nTotal bruto: R$" + totalBruto 
+//     + "\nDesconto especial: R$" + desconto10 
+//     + "\nDesconto convênio: R$" + desconto15 
+//     + "\nMulta: R$" + multa 
+//     + "\n===============" + "\nTotal a pagar: R$" + totalLiquido)
+
 
