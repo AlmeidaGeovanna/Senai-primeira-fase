@@ -1,33 +1,3 @@
-// let idade //sq02 - 1
-// idade = Number ( prompt ("Digite sua idade: "))
-// if(idade >=18){
-//     alert("Maior de idade")
-// }else{
-//     alert("Menor de idade")
-// }
-// console.log(idade);
-
-
-// let numeroAleatorio //sq02 - 2
-// let tentativa
-// numeroAleatorio = Number (prompt ("Digite um número: "))
-// tentativa = Number (prompt("Tente adivinhar o número aleatório: "))
-// if (numeroAleatorio == tentativa) {
-//     alert("Você acertou!")
-// }else{
-//     alert("Você errou")
-// }
-
-
-// let numero //sq02 - 4
-// numero = Number (prompt ("Digite um número: "))
-// if (numero  % 2 == 0){
-//       alert("Número par")
-// }else{
-//     alert("Número ímpar")
-// }
-
-
 // let senha //sq05.1
 // senha = Number (prompt ("Digite a senha: "))
 // if  (senha == 1234) {
@@ -35,6 +5,22 @@
 // }else{
 //     alert("Acesso negado")
 // } 
+
+
+//sq05.2
+// let numeroA
+// let numeroB
+// numeroA = Number (prompt("Digite o número A: "))
+// numeroB = Number (prompt("Digite o número B: "))
+// if (numeroA > numeroB){
+//     alert("O número A é maior!")
+// }
+// else if (numeroB > numeroA){
+//     alert("O número B é maior!")
+// }
+// else {
+//     alert("Os números A e B são iguais.")
+// }
 
 
 //sq05.3
@@ -113,34 +99,77 @@
 
 
 // sq 05.7
-let dias
-let valorDiaria
-let totalBruto, totalLiquido
-let desconto10, desconto15, multa = 150
+// let dias
+// let valorDiaria
+// let totalBruto, totalLiquido
+// let desconto10, desconto15, multa = 150
 
 
-dias = Number (prompt("Quantos dias? "))
-if(dias <= 5){
-    valorDiaria = 100
-}
-else if (dias <= 10){
-    valorDiaria = 90
-}
-else{
-    valorDiaria = 80
-}
-totalBruto = dias * valorDiaria
-console.log (totalBruto)
-desconto10 = totalBruto * 10/100
-desconto15 = totalBruto * 15/100
-totalLiquido = totalBruto - (desconto10 + desconto15) + multa
+// dias = Number (prompt("Quantos dias? "))
+// if(dias <= 5){
+//     valorDiaria = 100
+// }
+// else if (dias <= 10){
+//     valorDiaria = 90
+// }
+// else{
+//     valorDiaria = 80
+// }
+// totalBruto = dias * valorDiaria
+// console.log (totalBruto)
+// desconto10 = totalBruto * 10/100
+// desconto15 = totalBruto * 15/100
+// totalLiquido = totalBruto - (desconto10 + desconto15) + multa
 
-alert ("Número de dias: " + dias 
-    + "\nValor por diária: R$" + valorDiaria.toFixed(2) 
-    + "\nTotal bruto: R$" + totalBruto.toFixed(2) 
-    + "\nDesconto especial: R$" + desconto10.toFixed(2)  
-    + "\nDesconto convênio: R$" + desconto15.toFixed(2) 
-    + "\nMulta: R$" + multa.toFixed(2)  
-    + "\n===============" + "\nTotal a pagar: R$" + totalLiquido.toFixed(2).replace(".",","))
+// alert ("Número de dias: " + dias 
+//     + "\nValor por diária: R$" + valorDiaria.toFixed(2) 
+//     + "\nTotal bruto: R$" + totalBruto.toFixed(2) 
+//     + "\nDesconto especial: R$" + desconto10.toFixed(2)  
+//     + "\nDesconto convênio: R$" + desconto15.toFixed(2) 
+//     + "\nMulta: R$" + multa.toFixed(2)  
+//     + "\n===============" + "\nTotal a pagar: R$" + totalLiquido.toFixed(2).replace(".",","))
 
+
+// sq 05.8
+// let idade
+// idade = Number (prompt("Digite sua idade: "))
+// if(idade < 16){
+//     alert("Você não pode votar!")
+// }
+// else if (idade == 16 || idade ==17){
+//     alert("Voto facultativo!")
+// }
+// else if (idade >= 18 && idade <= 65){
+//     alert("Voto obrigatório!")
+// }
+// else {
+//     alert ("Voto facultativo!")
+// }
+
+
+// sq 05.9
+// let altura
+// let genero
+// let peso
+// altura = Number (prompt("Digite sua altura em metros: "))
+// genero = Number (prompt("Digite seu gênero (1 para feminino e 2 para masculino)"))
+// if (genero == 1){
+//     peso = (62.1 * altura) - 44.7
+// }
+// else{
+//     peso = (72.7 * altura) - 58
+// }
+// alert ("Seu peso ideal é: " + peso.toFixed(1))
+
+
+// sq 05.10
+// let quantidadeMacas
+// let preco
+// quantidadeMacas = Number (prompt("Digite a quantidade de maçãs que foram compradas: "))
+// if (quantidadeMacas > 12){
+//     preco = quantidadeMacas * 0.30
+// }
+// else{
+//     preço = quantidadeMacas * 0.25
+// }
 
