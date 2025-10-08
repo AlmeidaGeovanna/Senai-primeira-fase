@@ -15,6 +15,8 @@
 // }
 // alert("Soma: " + soma)
 
-const nomes = ["Dona Bete" , "Mano Juca" , "Lúcio Fernando", "Capitão Ganso"]
-for(let i =0; i<4; i++)
-alert(nomes[i])
+// const nomes = ["Dona Bete" , "Mano Juca" , "Lúcio Fernando", "Capitão Ganso"]
+// for(let i =0; i<4; i++)
+// alert(nomes[i])
+
+
