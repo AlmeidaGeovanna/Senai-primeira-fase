@@ -39,10 +39,33 @@
 // for(let i = 10; i>=1; i--){
 // alert(i)}
 
-//ex08 - parte 1
+// ex08 - parte 1
 // let fatorial = 1
 // let numero = Number(prompt("Digite um número: "))
 // for(let i = 1; i<=numero; i++){
 //     fatorial = fatorial * i
 //     alert("O fatorial é: " + fatorial)
 // }
+
+// ex09 - parte 1
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         alert("FizzBuzz");
+//     } else if (i % 3 === 0) {
+//         alert("Fizz");
+//     } else if (i % 5 === 0) {
+//         alert("Buzz");
+//     } else {
+//         alert(i);
+//     }
+// }
+
+// ex10 - parte 1
+// let soma = 0
+// for(let i = 1; i<=10; i++){
+//     soma = soma + (1 / i);  // ou soma += 1 / i;
+// }
+// alert(soma.toFixed(6)); 
+
+
+
