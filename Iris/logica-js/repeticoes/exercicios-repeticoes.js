@@ -48,24 +48,18 @@
 // }
 
 // ex09 - parte 1
-// for (let i = 1; i <= 100; i++) {
-//     if (i % 3 === 0 && i % 5 === 0) {
-//         alert("FizzBuzz");
-//     } else if (i % 3 === 0) {
-//         alert("Fizz");
-//     } else if (i % 5 === 0) {
-//         alert("Buzz");
-//     } else {
-//         alert(i);
+// for (let i = 1; i <=100; i++) {
+//     if (i % 3 === 0 && i % 5===0) {
+//         console.log("FizzBuzz")
+//     }
+//     else if(i % 3 === 0){
+//         console.log("Fizz")
+//     }
+//     else if(i % 5 === 0){
+//         console.log("Buzz")
+//     }
+//     else{
+//         console.log(i)
 //     }
 // }
-
-// ex10 - parte 1
-// let soma = 0
-// for(let i = 1; i<=10; i++){
-//     soma = soma + (1 / i);  // ou soma += 1 / i;
-// }
-// alert(soma.toFixed(6)); 
-
-
 
