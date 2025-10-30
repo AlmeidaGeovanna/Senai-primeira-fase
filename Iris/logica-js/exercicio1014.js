@@ -7,9 +7,11 @@
     // escreva("O consumo médio é: " + consumoMedio)
 
     function calcularConsumo(){
+    let consumo
     let distanciaTotalV
     let combustivelGastoV
-    distanciaTotalV = document.getElementById("distanciaTotal").value
-    combustivelGastoV = document.getElementById("combustivelGasto").value
-    document.getElementById("resultadoConsumo").innerHTML = distanciaTotalV/combustivelGastoV
+    distanciaTotalV = Number (document.getElementById("distanciaTotal").value)
+    combustivelGastoV =  Number (document.getElementById("combustivelGasto").value)
+    consumo = distanciaTotalV/combustivelGastoV
+    document.getElementById("resultadoConsumo").innerHTML = `O consumo foi de ${consumo} km/l`
 }
