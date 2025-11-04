@@ -2,3 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    background-color: #bbb;
+}
+
+nav{
+    background-color: #AAA;
+}
+
+main{
+    background-color: #CCC;
+}
+
+footer{
+    background-color: #666;
+}
